@@ -1,0 +1,46 @@
+/* CSS declarations go here */
+
+body {
+    margin-bottom: 200px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    background: url(/img/thumb.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+/* navbar */
+
+/*header*/
+.menu_bg {
+    background-color: #000;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+    z-index: 800;
+}
+header {
+    padding-top: 253px;
+    color: #e6e5e5;
+    display: block;
+    position: relative;
+    z-index: 999;
+    text-align: center;
+    background: url(/img/image.jpg) center 0 no-repeat;
+    background-size: cover;
+    padding-bottom: 53px;
+}
+header .rel {
+    z-index: 999;
+}
+header h2 {
+    color: white;
+}
